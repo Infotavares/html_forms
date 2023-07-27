@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<!--
+As opções de Select Tour Package: Goa, Andhra Pradesh, Haryana, Assam. - feito 
+Number of persons deve aceitar apenas números entre 1 e 9.
+Email address deve aceitar apenas e-mails.
+Discount Coupon Code deve aceitar textos com, exatamente, 6 caracteres.
+IMPORTANTE: Ao final, esta página deve estar na sua página no Github Pages. 
+-->
+
 <body>
     <h1>Travel reservation form</h1>
 <h2>* denotes mandotory</h2>
 <br>
 
-Full Name*: <br>
+Full Name*: <br> <!--NOME DO USUARIO-->
 <input type="text" name="nome_do_usuario" placeholder="FirstName LastName"/> <br>
 
-Email address*: <br>
-<input type="email" name="endereco_email_do_usuario" placeholder="EMAIL ADDRESS"/> <br>
+Email address*: <br> <!--ENDEREÇO DE EMAIL-->
+<input type="email" name="endereco_email_do_usuario" placeholder="EMAIL_ADDRESS"/> <br>
 
-Select Tour Package*: <br>
+Select Tour Package*: <br> <!--SELECIONAR DESTINO DE VIAGEM-->
 <select name="viagem">
     <option value="Goa">Goa</option>
     <option value="Andhra">Andhra</option>
@@ -25,25 +34,28 @@ Select Tour Package*: <br>
     <option value="Assam">Assam</option> 
 </select> <br>
 
-Arrival date*: <br>
+Arrival date*: <br> <!--DATA-->
 <input type="text" name="data" placeholder="m/d/y"/> <br>
 
-Number of persons*: <br>
+Number of persons*: <br> <!--NUMERO DE PESSOAS-->
 <input type="number" name="numero_de_pessoas" placeholder="UNKNOWN_TYPE"/> <br>
 
-What would you want to avail?* <br>
+What would you want to avail?* <br> <!--AVALIAÇÃO-->
 Boardign <input type="checkbox" name=""/> <br>
 Fooding <input type="checkbox" name=""/> <br>
 Sight seeing <input type="checkbox" name=""/> <br>
 
-Discount Coupon code: <br>
+Discount Coupon code: <br> <!--CUPOM DE DESCONTO-->
 <input type="text" name="Cupom_de_desconto" placeholder="UNKNOWN_TYPE"/> <br>
 
-Terms and conditions* <br>
-<br>
+Terms and conditions* <br> <!--TERMOS E CONDIÇÕES-->
+<input type="radio" name="concordo" value="concordo"/> I agree
+<input type="radio" name="discordo" value="discordo" checked/> I disagree <br>
 <input type="submit" value="Complete reservation"> <br><br>
+
+<!--TESTA CODIGO AQUI BIXOKKKKKKKKKKKKKKKKKKKKKKK-->
 Teste de Códigos do Livro*: <br>
-<select name="cor">
+<input type="radio" value="12">
    
 
 
